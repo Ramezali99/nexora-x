@@ -28,6 +28,7 @@ jobs:
           autoconf libtool pkg-config zlib1g-dev \
           libncurses5-dev libncursesw5-dev \
            cmake libffi-dev libssl-dev
+           yes | sdkmanager --licenses
 
       - name: Build APK
         run: |
